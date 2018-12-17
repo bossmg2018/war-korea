@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-
+    //유비는 천재야
     // Hello, World
 
     public const int maxHealth = 100;
