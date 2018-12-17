@@ -7,8 +7,11 @@ public class Health : MonoBehaviour
 {
 
     // Hello, World
+<<<<<<< HEAD
     //유비야 전투구현
     //건방진 유비
+=======
+>>>>>>> parent of 6f1752b... Update Health.cs
 
     public const int maxHealth = 100;
 
