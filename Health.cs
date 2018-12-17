@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
 {
     //유비는 천재야
     // Hello, World
+    //유비야 전투구현
 
     public const int maxHealth = 100;
 
