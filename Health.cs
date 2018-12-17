@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     // 일단 깔끔하게
+    // 되돌리기 전
     public const int maxHealth = 100;
 
     public bool destroyOnDeath;
