@@ -1,0 +1,102 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Health : MonoBehaviour
+{
+<<<<<<< HEAD
+    //유비야 천재는 아까 지웠는데
+//제발 이제 되자
+=======
+<<<<<<< HEAD
+    // 일단 깔끔하게
+<<<<<<< HEAD
+    // 되돌리기 전
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    //유비는 천재야
+    // Hello, World
+    //유비야 전투구현
+    //건방진 유비
+=======
+
+
+>>>>>>> parent of 729da3b... Hello, World
+=======
+
+
+>>>>>>> parent of 729da3b... Hello, World
+=======
+
+
+>>>>>>> parent of 729da3b... Hello, World
+
+>>>>>>> parent of a690b37... Update Health.cs
+=======
+>>>>>>> parent of f9d9e2c... Update Health.cs
+>>>>>>> parent of ad3c9a8... Update Health.cs
+    public const int maxHealth = 100;
+
+    public bool destroyOnDeath;
+
+    //[SyncVar(hook = "OnchangeHealth")]
+
+    public int currentHealth = maxHealth;
+
+
+    public Slider healthSlider;
+
+
+
+    //private NetworkStartPosition[] spawnPoints;
+
+    void Start()
+    {
+
+
+    }
+
+    public void TakeDamage(int amount)
+    {
+
+        currentHealth -= amount;
+
+        if (currentHealth <= 0)
+        {
+            if (destroyOnDeath)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                currentHealth = maxHealth;
+
+                //RpcRespawn();
+            }
+
+        }
+    }
+
+    void OnchangeHealth(int health)
+    {
+        healthSlider.value = health;
+    }
+ //   [ClientRpc]
+ /*
+    void RpcRespawn()
+    {
+        if (isLocalPlayer)
+        {
+            Vector3 spawnPoint = Vector3.zero;
+            if (spawnPoints != null && spawnPoints.Length > 0)
+            {
+                spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)].transform.position;
+            }
+            transform.position = spawnPoint;
+        }
+
+    }*/
+}
