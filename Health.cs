@@ -5,34 +5,7 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-<<<<<<< HEAD
-    // 일단 깔끔하게
-<<<<<<< HEAD
-    // 되돌리기 전
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    //유비는 천재야
-    // Hello, World
-    //유비야 전투구현
-    //건방진 유비
-=======
-
-
->>>>>>> parent of 729da3b... Hello, World
-=======
-
-
->>>>>>> parent of 729da3b... Hello, World
-=======
-
-
->>>>>>> parent of 729da3b... Hello, World
-
->>>>>>> parent of a690b37... Update Health.cs
-=======
->>>>>>> parent of f9d9e2c... Update Health.cs
+    //유비야 천재는 아까 지웠는데
     public const int maxHealth = 100;
 
     public bool destroyOnDeath;
