@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
 {
 <<<<<<< HEAD
     // 일단 깔끔하게
+<<<<<<< HEAD
     // 되돌리기 전
 =======
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ public class Health : MonoBehaviour
 >>>>>>> parent of 729da3b... Hello, World
 
 >>>>>>> parent of a690b37... Update Health.cs
+=======
+>>>>>>> parent of f9d9e2c... Update Health.cs
     public const int maxHealth = 100;
 
     public bool destroyOnDeath;
