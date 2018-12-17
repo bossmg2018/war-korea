@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     //유비야 천재는 아까 지웠는데
+//제발 이제 되자
     public const int maxHealth = 100;
 
     public bool destroyOnDeath;
